@@ -1,0 +1,19 @@
+div > p {
+  font-size: 1.1rem;
+  color: red;
+  border: 2px solid blue;
+  padding: 10px;
+}
+.container {
+  display: flex;
+}
+.container > div {
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  background: lightblue;
+  margin: 30px;
+}
+body {
+  background: lightsteelblue;
+}
