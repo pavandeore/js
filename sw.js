@@ -14,7 +14,7 @@ const assets = [
 
 
 self.addEventListener('install',(e)=>{
-    // console.log('service worker installed')
+    // console.log('service worker installed');
     e.waitUntil(
         caches.open(someone).then( cache => {
             cache.addAll(assets)
