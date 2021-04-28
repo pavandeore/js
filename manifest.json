@@ -1,7 +1,7 @@
 {
     "name" : "it is shown name",
     "short_name" : "Short Name",
-    "start_url" : "./index.html",
+    "start_url" : "/",
     "display" : "standalone",
     "theme_color" : "blue",
     "orientation": "portrait-primary",
